@@ -1,0 +1,40 @@
+.Wrapper {
+  max-width: 900px;
+  margin: auto;
+  border-left: 1px solid rgba(0,0,0,0.1);
+  border-right: 1px solid rgba(0,0,0,0.1);
+}
+
+.Header {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 999;
+}
+
+.Header .Branding {
+  margin: 0;
+}
+
+.Header .Branding .Logo {
+  height: 40px;
+  margin: 10px;
+  vertical-align: middle;
+}
+
+.Posts {
+  display: flex;
+}
+
+.PostStream {
+  width: 67%;
+  flex-shrink: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
