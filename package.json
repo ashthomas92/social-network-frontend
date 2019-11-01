@@ -1,6 +1,7 @@
 {
   "name": "social-network-frontend",
-  "version": "0.1.0",
+  "homepage": "https://react-social-network-frontend-pt1-demo.southdevondigital.com/",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.5.2",
